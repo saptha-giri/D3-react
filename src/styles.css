@@ -1,0 +1,108 @@
+/* .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height:95vh;
+  font-family: sans-serif;
+} */
+
+.path-check path{
+  visibility : hidden;
+}
+
+.axis-grid line,path{
+  stroke: rgb(155, 153, 153);
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+
+.graph-label{
+  border: 2px solid #e6bcbc;
+  padding: 1px;
+  font-size: 0.8em;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.mycontainer{
+  display: flex;
+  flex:1;
+  width:98vw;
+  height:98vh;
+}
+
+.Tooltip {
+  border: 1px solid #0f0e0e;
+  box-shadow: none;
+  display: table;
+  position: absolute;
+  padding: -1px;
+  text-align: left;
+  font-size: 12px;
+  background: #131212;
+  pointer-events: none;
+  white-space: nowrap;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.Tooltip td{
+  display: flex;
+}
+
+.bar:hover {
+  /* fill: orangered ; */
+  opacity: 1;
+  cursor: pointer;
+}
+
+.d3-tip {
+  line-height: 1;
+  /* font-weight: bold; */
+  font-size: 0.7em;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+/* .d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "25BC";
+  position: absolute;
+  text-align: center;
+} */
+
+/* .d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+} */
+
+/* .frame {
+  fill: none;
+  stroke: #000;
+} */
+/* 
+.axis text {
+  font: 10px sans-serif;
+} */
+
+.axis line,
+.axis circle {
+  fill: none;
+  stroke: #777;
+  stroke: 1,4;
+}
+
+/* .axis :last-of-type circle {
+  stroke: #333;
+  stroke-dasharray: none;
+} */
